@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.navbar, .main, .newpost{
+  display: flex;
+  width: 55vw;
+}
+.navbar{
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+.navbar h1, .post h2{
+  color: #0077B6;
+}
+.navbar .links a{
+  color: #8D909B;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+.navbar .links a:last-child{
+  background-color: #0077B6;
+  color: #FFF;
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+}
+.navbar .links a:last-child:hover{
+  filter: brightness(120%);
+}
+.navbar .links a:first-child:hover{
+  color: #0077B6;
+}
+.main{
+  margin: 5rem auto;
+}
+.post{
+  margin-bottom: 1rem;
+  padding: .625rem 1rem;
+  cursor: pointer;
+}
+.post p{
+  color: #8D909B;
+  margin-top: .5rem;
+}
+.post a{
+  text-decoration: none;
+}
+.post:hover{
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, .2);
+  border-radius: .5rem;
+}
+.newpost{
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.newpost h2, .head h2 ,.newpost h3{
+  color: #0077B6;
+  margin-bottom: .5rem;
+}
+.newpost input, .newpost textarea{
+  width: 100%;
+  border: #8D909B 1px solid;
+  padding: .7rem .5rem;
+  border-radius: .3rem;
+}
+.newpost input:focus, .newpost textarea:focus{
+  outline: #0077B6 2px solid;
+  border: none;
+}
+.newpost textarea{
+  height: 10rem;
+}
+.newpost button{
+  padding: .5rem;
+  border: none;
+  outline: none;
+  color: #FFF;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: .3rem;
+  background-color: #0077B6;
+}
+.newpost button:hover{
+  filter: brightness(120%);
+}
+.head p{
+  margin: .5rem 0 1rem 0;
+  color: #2081C3;
+}
