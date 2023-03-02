@@ -70,7 +70,6 @@
 }
 .newpost input:focus, .newpost textarea:focus{
   outline: #0077B6 2px solid;
-  border: none;
 }
 .newpost textarea{
   height: 10rem;
@@ -95,4 +94,12 @@
 .post-info button{
   background-color: red;
   margin-top: 1rem;
+}
+.error span, .error h1{
+  color: red;
+  margin: .5rem 0;
+}
+.error span{
+  font-size: 1.2rem;
+  font-weight: bold;
 }

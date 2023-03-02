@@ -1,15 +1,20 @@
-import { useParams } from "react-router-dom";
+import { useParams, useHistory } from "react-router-dom";
 import useFetch from "./useFetch";
 
 const PostDetails = () => {
+    // Returning "id" value from "Route" path using "useParams" value
     const { id } = useParams();
+    const routeHistory = useHistory();
     const {data: post, hasError, isLoading} = useFetch(`http://localhost:5050/posts/${id}`);
 
+    // Making DELETE request to server, to delete post with specific "id"
     function deletePost(id){
         fetch(`http://localhost:5050/posts/${id}`, {
             method: "DELETE",
         }).then(() => {
             window.location = "/";
+            // OR
+            // routeHistory.push("/")
         })
     }
 
