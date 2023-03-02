@@ -4,11 +4,23 @@ const NewPost = () => {
     const [title, setTitle] = useState("");
     const [body, setBody] = useState("");
     const [author, setAuthor] = useState("");
+    const [buttonMsg, setButtonMsg] = useState(false)
 
     function handleSubmit(e){
         e.preventDefault();
         const post = {title, body, author};
-        console.log(post);
+
+        setButtonMsg(true);
+       
+        fetch("http://localhost:5050/posts", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(post)
+        }).then(() => {
+            setTimeout(() => {
+                setButtonMsg(false)
+            }, 700)
+        })
     }
 
     return ( 
@@ -46,9 +58,12 @@ const NewPost = () => {
                  ></textarea>
             </div>
 
-            <button>Create Post</button>
+            { !buttonMsg && <button>Create Post</button> }
+            { buttonMsg && <button>Creating Post⏳...</button> }
         </form>
      );
 }
  
 export default NewPost;
+
+

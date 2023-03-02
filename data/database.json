@@ -1,17 +1,16 @@
 {
-    "posts": [
-        {
-            "title": "Why Developers Should Learn Docker and Kubernetes in 2023",
-            "body": "Hello devs, if you are looking to learn new tools and technologies in 2023 then you should consider learning Docker and Kubernetes, two of the most essential tools for creating and managing containers in this era of Microservices and Cloud Computing.",
-            "author": "javinpaul",
-            "id":1
-        },
-        {
-            "title": "How I Created a Trending Github Repository and Got 100+ Stars",
-            "body": "Have you ever dreamed of creating a successful open-source project that not only attracts the attention of the development community but also lands you job offers from top tech companies? Well, that dream can come true!",
-            "author": "Yashash Pugalia",
-            "id": 2
-
-        }
-    ]
+  "posts": [
+    {
+      "title": "Why Developers Should Learn Docker and Kubernetes in 2023",
+      "body": "Hello devs, if you are looking to learn new tools and technologies in 2023 then you should consider learning Docker and Kubernetes, two of the most essential tools for creating and managing containers in this era of Microservices and Cloud Computing.",
+      "author": "javinpaul",
+      "id": 1
+    },
+    {
+      "title": "How I Created a Trending Github Repository and Got 100+ Stars",
+      "body": "Have you ever dreamed of creating a successful open-source project that not only attracts the attention of the development community but also lands you job offers from top tech companies? Well, that dream can come true!",
+      "author": "Yashash Pugalia",
+      "id": 2
+    }
+  ]
 }

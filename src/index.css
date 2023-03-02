@@ -75,7 +75,7 @@
 .newpost textarea{
   height: 10rem;
 }
-.newpost button{
+.newpost button, .post-info button{
   padding: .5rem;
   border: none;
   outline: none;
@@ -85,10 +85,14 @@
   border-radius: .3rem;
   background-color: #0077B6;
 }
-.newpost button:hover{
+.newpost button:hover, .post-info button:hover{
   filter: brightness(120%);
 }
 .head p{
   margin: .5rem 0 1rem 0;
   color: #2081C3;
+}
+.post-info button{
+  background-color: red;
+  margin-top: 1rem;
 }
