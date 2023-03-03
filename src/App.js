@@ -8,7 +8,7 @@ import Route404 from './components/Route404';
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="App font-Plus-Jakarta-Sans">
         <Header />
         <div className="main">
           <Switch>

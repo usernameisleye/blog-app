@@ -23,18 +23,18 @@ const PostDetails = () => {
             { isLoading && <div>Loading, Please wait⏳...</div> }
             { hasError && <div>{hasError}</div> } 
             { post && (
-                <section>
+                <article className="flex flex-col items-start gap-6 h-screen p-10">
                     <div className="head">
-                        <h2>{ post.title }</h2>
-                        <p>Created by { post.author }</p>
+                        <h2 className="font-extrabold text-3xl">{ post.title }</h2>
+                        <p className="text-sm my-2">Created by { post.author }</p>
                     </div>
                     
-                    <div className="body">
+                    <div className="">
                         <p>{ post.body }</p>
                     </div>
 
-                    <button onClick={() => deletePost(id)}>Delete Post</button>
-                </section>
+                    <button className="bg-red-700 text-white self-center w-5/6 p-2 mt-auto rounded-md hover:brightness-125" onClick={() => deletePost(id)}>Delete Post</button>
+                </article>
             ) }
         </div>
      );
