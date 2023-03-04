@@ -30,7 +30,7 @@ const useFetch = (url) => {
     }, [url]);
 
     // Exporting useState value as object items for use in other components
-    return {data, isLoading, hasError}
+    return {data, isLoading, hasError, setData}
 }
 
 export default useFetch;
