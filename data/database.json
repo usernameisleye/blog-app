@@ -1,7 +1,7 @@
 {
   "posts": [
-    {
-      "title": "Why Developers Should Learn Docker and Kubernetes in 2023",
+  {
+    "title": "Why Developers Should Learn Docker and Kubernetes in 2023",
       "body": "Hello devs, if you are looking to learn new tools and technologies in 2023 then you should consider learning Docker and Kubernetes, two of the most essential tools for creating and managing containers in this era of Microservices and Cloud Computing.",
       "author": "javinpaul",
       "id": 1
@@ -25,12 +25,6 @@
       "id": 4
     },
     {
-      "title": "The Future of NextJS",
-      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo excepturi facilis iste maxime reprehenderit officiis nisi autem optio molestiae enim vel eligendi provident asperiores, exercitationem ex quae vitae harum? Possimus reiciendis iure accusantium ea non? Quaerat maiores nihil et in quae. Aspernatur vel perspiciatis corrupti fugit ipsum architecto tenetur asperiores est molestias placeat deleniti ducimus odio ullam, veniam maiores repudiandae consectetur amet cum voluptatibus dolor iusto explicabo, ex temporibus? Quidem, ipsa! Debitis hic eligendi qui necessitatibus corporis id facere, laboriosam placeat inventore, deleniti odio nisi unde eum molestias. Iusto itaque aliquam dolorem, rerum enim, ab deleniti incidunt dicta fuga necessitatibus quaerat laboriosam alias blanditiis voluptate vero, quisquam ipsa esse minus. Natus alias cum, voluptates sit animi nemo? Nulla eligendi, fuga ullam enim ea commodi cumque debitis omnis aspernatur, recusandae nesciunt. Amet nisi nostrum pariatur provident qui alias modi expedita sequi veniam architecto doloremque suscipit, ex ullam inventore ipsa voluptates tempora reprehenderit ad officiis ipsam fuga. Voluptatem minima reprehenderit explicabo eligendi quo modi, quos repellendus vel impedit quia, pariatur amet ut labore ex ratione doloribus totam nisi earum possimus molestias. Ullam minima consequatur ipsum dolorem iure dignissimos quasi omnis, culpa optio. Hic, aliquam eius alias laudantium voluptates molestias veniam est.",
-      "author": "Lily Washington",
-      "id": 5
-    },
-    {
       "title": "React vs Vue vs Angular. Which?",
       "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo excepturi facilis iste maxime reprehenderit officiis nisi autem optio molestiae enim vel eligendi provident asperiores, exercitationem ex quae vitae harum? Possimus reiciendis iure accusantium ea non? Quaerat maiores nihil et in quae. Aspernatur vel perspiciatis corrupti fugit ipsum architecto tenetur asperiores est molestias placeat deleniti ducimus odio ullam, veniam maiores repudiandae consectetur amet cum voluptatibus dolor iusto explicabo, ex temporibus? Quidem, ipsa! Debitis hic eligendi qui necessitatibus corporis id facere, laboriosam placeat inventore, deleniti odio nisi unde eum molestias. Iusto itaque aliquam dolorem, rerum enim, ab deleniti incidunt dicta fuga necessitatibus quaerat laboriosam alias blanditiis voluptate vero, quisquam ipsa esse minus. Natus alias cum, voluptates sit animi nemo? Nulla eligendi, fuga ullam enim ea commodi cumque debitis omnis aspernatur, recusandae nesciunt. Amet nisi nostrum pariatur provident qui alias modi expedita sequi veniam architecto doloremque suscipit, ex ullam inventore ipsa voluptates tempora reprehenderit ad officiis ipsam fuga. Voluptatem minima reprehenderit explicabo eligendi quo modi, quos repellendus vel impedit quia, pariatur amet ut labore ex ratione doloribus totam nisi earum possimus molestias. Ullam minima consequatur ipsum dolorem iure dignissimos quasi omnis, culpa optio. Hic, aliquam eius alias laudantium voluptates molestias veniam est.",
       "author": "The Dev Preacher",
@@ -41,6 +35,6 @@
       "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo excepturi facilis iste maxime reprehenderit officiis nisi autem optio molestiae enim vel eligendi provident asperiores, exercitationem ex quae vitae harum? Possimus reiciendis iure accusantium ea non? Quaerat maiores nihil et in quae. Aspernatur vel perspiciatis corrupti fugit ipsum architecto tenetur asperiores est molestias placeat deleniti ducimus odio ullam, veniam maiores repudiandae consectetur amet cum voluptatibus dolor iusto explicabo, ex temporibus? Quidem, ipsa! Debitis hic eligendi qui necessitatibus corporis id facere, laboriosam placeat inventore, deleniti odio nisi unde eum molestias. Iusto itaque aliquam dolorem, rerum enim, ab deleniti incidunt dicta fuga necessitatibus quaerat laboriosam alias blanditiis voluptate vero, quisquam ipsa esse minus. Natus alias cum, voluptates sit animi nemo? Nulla eligendi, fuga ullam enim ea commodi cumque debitis omnis aspernatur, recusandae nesciunt. Amet nisi nostrum pariatur provident qui alias modi expedita sequi veniam architecto doloremque suscipit, ex ullam inventore ipsa voluptates tempora reprehenderit ad officiis ipsam fuga. Voluptatem minima reprehenderit explicabo eligendi quo modi, quos repellendus vel impedit quia, pariatur amet ut labore ex ratione doloribus totam nisi earum possimus molestias. Ullam minima consequatur ipsum dolorem iure dignissimos quasi omnis, culpa optio. Hic, aliquam eius alias laudantium voluptates molestias veniam est.",
       "author": "Ladoke Ruth",
       "id": 7
-    }
+    } 
   ]
 }

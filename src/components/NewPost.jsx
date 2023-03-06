@@ -36,7 +36,7 @@ const NewPost = () => {
     return ( 
         <form className="flex flex-col items-center justify-center gap-2 h-screen" onSubmit={handleSubmit}>
             <h2 className="text-3xl font-bold">Create New Post</h2>
-            <div className="flex flex-col w-1/2">
+            <div className="flex flex-col sm:w-1/2 w-11/12">
                 <label className="text-lg font-bold">Title</label>
                 <input
                  type="text"
@@ -48,7 +48,7 @@ const NewPost = () => {
                  />
             </div>
 
-            <div className="flex flex-col w-1/2">
+            <div className="flex flex-col sm:w-1/2 w-11/12">
                 <label className="text-lg font-bold">Author</label>
                 <input 
                  type="text"
@@ -60,7 +60,7 @@ const NewPost = () => {
                  />
             </div>
 
-            <div className="flex flex-col w-1/2">
+            <div className="flex flex-col sm:w-1/2 w-11/12">
                 <label className="text-lg font-bold">Post Details</label>
                 <textarea
                  style={{resize: "none"}} 
@@ -73,7 +73,7 @@ const NewPost = () => {
             </div>
 
             {/* Displaying "Create Post" when "buttonMsg returns false and vice-versa" */}
-            { !buttonMsg && <button className="w-1/2 mt-4 p-2 bg-blue-700 text-white rounded-md hover:brightness-125">Create Post</button> }
+            { !buttonMsg && <button className="sm:w-1/2 w-11/12 mt-4 p-2 bg-blue-700 text-white rounded-md hover:brightness-125">Create Post</button> }
             { buttonMsg && <button>Creating Post⏳...</button> }
         </form>
      );

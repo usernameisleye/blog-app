@@ -19,11 +19,11 @@ const PostDetails = () => {
     }
 
     return ( 
-        <div className="post-info">
+        <div className="post-info p-8">
             { isLoading && <div>Loading, Please wait⏳...</div> }
             { hasError && <div>{hasError}</div> } 
             { post && (
-                <article className="flex flex-col items-start gap-6 h-screen p-10">
+                <article className="flex flex-col items-start gap-6 h-fit sm:p-10">
                     <div className="head">
                         <h2 className="font-extrabold text-3xl">{ post.title }</h2>
                         <p className="text-sm my-2">Created by { post.author }</p>

@@ -4,14 +4,15 @@ import { BrowserRouter as Router, Switch , Route } from 'react-router-dom'
 import NewPost from './components/NewPost';
 import PostDetails from './components/PostDetails';
 import Route404 from './components/Route404';
-import { useState } from 'react';
+
 
 function App() {
+
   return (
     <Router>
       <div className="App font-Plus-Jakarta-Sans bg-gray-200 h-screen">
         <Header />
-        <div className="main">
+        <div className="main bg-gray-200">
           <Switch>
             {/* Setting routes for components (i.e "exact" for strict route comparasion) */}
             <Route path="/" exact> <Main /> </Route>

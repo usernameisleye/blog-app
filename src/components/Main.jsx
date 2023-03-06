@@ -10,7 +10,7 @@ const Main = () => {
             {/* Using conditional templating to display divs/component is useState value are true/exists */}
             { isLoading && <div>Loading, Please wait⏳...</div> }
             { hasError && <div>{hasError}</div> } 
-            { posts && <Post posts={posts} /> }
+            { posts &&  <Post posts={posts}/> }
         </div>
     );
 }
