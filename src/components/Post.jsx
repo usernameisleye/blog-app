@@ -4,12 +4,6 @@ import { Link } from 'react-router-dom';
 const Post = ({ posts }) => {
     const [allPosts, setAllPosts] = useState(posts)
     const searchInput = document.querySelector(".input");
-    
-    // let bgArray = ["orange", "red", "blue", "slate", "black", "yellow", "emerald", "teal", "cyan", "sky", "violet", "pink", "rose", "purple"];
-    
-    // function generateBg(){
-    //     return Math.floor(Math.random() * bgArray.length)
-    // }
 
     // Filtering through "allPosts" to return those with titles similar to input value
     searchInput.addEventListener("input", () => {
